@@ -19,6 +19,26 @@ close.addEventListener("click", () => {
 });
 
 
+const navLinks = document.querySelectorAll('nav a');
+const sections = document.querySelectorAll('section');   
+
+
+// Add click event listeners to the navigation links   
+
+navLinks.forEach(link => {
+    link.addEventListener('click', (event) => {
+        event.preventDefault();
+        const targetSection = document.getElementById(link.hash.slice(1));   
+
+        targetSection.scrollIntoView({ behavior: 'smooth' });
+
+        // Update the active class
+        navLinks.forEach(link => link.classList.remove('active'));
+        link.classList.add('active');
+    });
+});
+
+
 function animateContent(selector) {
     selector.forEach((selector) => {
         gsap.to(selector, {

@@ -3,12 +3,16 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'poppins', sans-serif;
+    font-family: 'poppins';
     box-sizing: border-box;
     text-transform: capitalize;
     transition: all .4s ease;
     text-decoration: none;
 }
+/* #feliz{
+    font-family: 'poppins',
+
+} */
 
 :root{
     --dark-green: #112a34;
@@ -49,8 +53,8 @@ section.home{
 .home .home-box{
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)), url(Bg.jpg);
-    background-size: cover;
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)), url(bg.JPG);
+    background-size:cover;
     background-position: center;
     padding: .5rem;
     border-radius: .5rem;
@@ -58,7 +62,7 @@ section.home{
 .home .home-box nav{
     width: 100%;
     height: 64px;
-    background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2));
+    /* background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)); */
     backdrop-filter: blur(2px);
     border-radius: .7rem;
     display: flex;
@@ -85,7 +89,7 @@ nav .logo .bar:hover{
 nav .logo h3{
     color: var(--white-color);
     font-weight: 400;
-    font-style: italic;
+    /* font-style: italic; */
 }
 nav .menu .close{
     display: none;
@@ -100,7 +104,7 @@ nav .menu ul li a{
     font-weight: 400;
 }
 nav .menu ul li a:hover{
-    color: orangered;
+    color: rgb(0, 0, 0);
 }
 nav .signup-login{
     display: flex;
@@ -265,6 +269,27 @@ nav .signup-login a:last-child:hover{
 .destinations .container .container-box .content a:hover i{
     margin-left: .1rem;
 }
+/* .image-container {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+} */
+
+/* .image-container img {
+    width: 100%;
+    height: 100%;
+    filter: blur(8px);
+    transition: filter 0.3s ease;
+} */
+/* .gallery .box1 img {
+    transition: filter 0.3s ease-in-out;
+    filter: blur(5px);
+}
+
+.gallery .box1:hover img {
+    filter: blur(0); */
+/* } */
 .gallery{
     margin-top: 4rem;
     width: 100%;
@@ -284,6 +309,7 @@ nav .signup-login a:last-child:hover{
     height: 100%;
     object-fit: cover;
     object-position: center;
+   
 }
 .gallery .box .text{
     position: absolute;
@@ -346,6 +372,7 @@ nav .signup-login a:last-child:hover{
     color: var(--white-color);
 }
 .featured .gallery .box .content p{
+    text-align: center;
     font-size: .9rem;
     color: #eee;
 }
