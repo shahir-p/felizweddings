@@ -87,6 +87,8 @@ nav .logo .bar{
     color: var(--white-color);
     cursor: pointer;
     display: none;
+    position: absolute;
+    right: 4%;
 }
 nav .logo .bar:hover{
     color: var(--green-color);
@@ -98,6 +100,12 @@ nav .logo h3{
 }
 nav .menu .close{
     display: none;
+    
+    
+}
+nav .menu{
+    display: none;
+   
 }
 nav .menu ul{
     display: flex;
@@ -109,30 +117,9 @@ nav .menu ul li a{
     font-weight: 400;
 }
 nav .menu ul li a:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(227, 65, 65);
 }
-nav .signup-login{
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-}
-nav .signup-login a{
-    color: var(--white-color);
-    padding: .3rem 1rem;
-    border-radius: 2rem;
-}
-nav .signup-login a:last-child{
-    background: var(--green-color);
-    padding: .3rem 1rem;
-    border-radius: 2rem;
-}
-nav .signup-login a:hover{
-    color: orangered;
-}
-nav .signup-login a:last-child:hover{
-    color: var(--white-color);
-    background: #02636e;
-}
+
 
 .home .home-box .content{
     width: 100%;
@@ -735,23 +722,26 @@ footer .footer .copyright a {
     }
 
     .home .home-box nav .menu.active {
+        margin-right: 15px;
+        margin-top: 15px;
+        border-top-right-radius:10px ;
         display: block;
         position: absolute;
-        left: -1.5rem;
+        right: -1.5rem;
         top: -1.5rem;
-        width: 100vw;
-        height: 100vh;
-        background: rgb(0 0 0/90%);
+        width: 80vw;
+        height: 60vh;
+        background: rgb(0, 0, 0,0.8);
         display: flex;
-        align-items: center;
+        /* align-items: center; */
         padding: 0 3rem;
     }
 
     .home .home-box nav .menu .close {
         display: block;
         position: absolute;
-        left: 3rem;
-        top: 3rem;
+        top: 2%;
+        right: 6%;
         cursor: pointer;
         color: var(--white-color);
         font-size: 2rem;
@@ -762,9 +752,10 @@ footer .footer .copyright a {
     }
 
     .home .home-box nav .menu ul {
+        margin-top: 120px;
         flex-direction: column;
         font-size: 1.3rem;
-        gap: 1rem;
+        gap: 2rem;
     }
 
     .home .home-box nav .menu ul:hover li a {
