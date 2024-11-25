@@ -9,10 +9,10 @@
     transition: all .4s ease;
     text-decoration: none;
 }
-/* #feliz{
-    font-family: 'poppins',
+#feliz{
+    margin-left: -10px;
 
-} */
+}
 
 :root{
     --dark-green: #112a34;
@@ -30,6 +30,11 @@ body{
     height: 100%;
 }
 
+#image-logo{
+    width: 30px;
+
+    
+}
 
 section{
     padding: 0 8rem;
@@ -53,7 +58,7 @@ section.home{
 .home .home-box{
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)), url(bg.JPG);
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)), url(https://firebasestorage.googleapis.com/v0/b/felizweddings-2925f.appspot.com/o/bg.JPG?alt=media&token=21de8130-d0e1-460d-b609-596ba2a42a02);
     background-size:cover;
     background-position: center;
     padding: .5rem;
