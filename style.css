@@ -59,6 +59,7 @@ section.home{
     width: 100%;
     height: 100%;
     background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)), url(https://firebasestorage.googleapis.com/v0/b/felizweddings-2925f.appspot.com/o/bg.JPG?alt=media&token=21de8130-d0e1-460d-b609-596ba2a42a02);
+    /* background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)), url(IMG_5577.JPG); */
     background-size:cover;
     background-position: center;
     padding: .5rem;
@@ -386,94 +387,19 @@ nav .menu ul li a:hover{
     opacity: 0;
 }
 
-.feedback {
-    background: url("section-background.jpg");
-    background-position: center;
-    background-size: cover;
-    margin-top: 6rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
+.image-Gallery{
+/* width: 100vw; */
 
-.feedback .container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+columns: 3;
 }
-
-.feedback .container h4 {
-    color: rgb(255 255 255/90%);
-}
-
-.feedback .container h2 {
-    max-width: 40rem;
-    color: var(--white-color);
-    text-align: center;
-}
-
-.feedback .container p {
-    color: #eee;
-    font-size: 1.2rem;
-    margin-top: 1rem;
-    text-align: center;
-}
-
-.feedback .voices {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-top: 3rem;
-}
-
-.feedback .voices .voice {
-    flex: 1 0 320px;
-    background: var(--white-color);
-    padding: 2rem;
-    border-radius: .7rem;
-}
-
-.feedback .voices .voice .profile {
-    display: flex;
-    align-items: center;
-}
-
-.feedback .voices .voice .profile img {
-    width: 40px;
-    height: 40px;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 2rem;
-}
-
-.feedback .voices .voice .profile .detail {
-    margin-left: 1rem;
-}
-
-.feedback .voices .voice .profile .detail li {
-    list-style: none;
-}
-
-.feedback .voices .voice .profile .detail li:first-child {
-    font-size: 1.1rem;
-    color: #000;
-    font-weight: 600;
-}
-
-.feedback .voices .voice p {
-    margin-top: 1rem;
-}
-.feedback .container .label,
-.feedback .container .heading,
-.feedback .container .paragraph{
-    transform: translate(0, 10px);
-    opacity: 0;
-}
-.feedback .voices .voice{
-    transform: translate(0,100px);
-    opacity: 0;
-}
-
+.image-Gallery .box{
+    
+    
+} 
+.image-Gallery .box img{
+width: 100%; 
+    
+} 
 
 .article {
     padding-top: 3rem;
