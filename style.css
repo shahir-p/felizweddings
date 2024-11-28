@@ -504,27 +504,27 @@ footer .footer {
     }
     
 .contact{
-    height: 40vh;
+    height: 30vh;
  
 }
 .button{
     border: 2px solid white;
-    height: 80px;
-    width: 250px;
+    height: 50px;
+    width: 200px;
     text-align: center;
     align-items: center;
     display: flex;
     justify-content: center;
 }
 .contact #fh{
-    font-size: 50px;
+    font-size: 25px;
     margin-bottom: 80px;
 }
 .button i{
     padding-left: 20px;
 }
 .button label{
-    font-size: 20px;
+    font-size: 18px;
 }
 footer {
     padding:  1rem;
@@ -533,7 +533,7 @@ footer {
 
 
 #copy{
-    font-size: 20px;
+    font-size: 16px;
     position: absolute;
     bottom: 10px;
 
