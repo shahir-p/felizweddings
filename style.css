@@ -663,7 +663,7 @@ textarea {
         
     }
     .input-box input {
-        margin: 10px;
+        margin:0px 30px;
         border: 1px solid white;
         width: 350px;
         height: 40px;
