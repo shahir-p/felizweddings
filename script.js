@@ -116,9 +116,14 @@ animateContent([".home .content h5, .home .content h1, .home .content p, .home .
 
 
 swipeAnimation(".destinations", [".destinations .heading", ".destinations .content"])
+swipeAnimation(".photoGallery", [".photoGallery .heading", ".photoGallery .content"])
 
-swipeAnimation(".photo-gallery", [".photo-gallery .heading", ".photo-gallery .content"])
 
 
 galleryAnimation(".destinations .gallery", [".destinations .gallery .box1",".destinations .gallery .box2",
 ".destinations .gallery .box3",".destinations .gallery .box4",".destinations .gallery .box5"])
+
+//contact page
+// function contact(){
+//     window.location.href = "contact.html";
+// }
