@@ -662,20 +662,11 @@ textarea {
         font-size: 30px;
         
     }
-    .input-box input {
-        margin:0px 30px;
-        border: 1px solid white;
-        width: 350px;
-        height: 40px;
-        padding: 1rem;
-        font-size: 1.1rem;
-        color: white;
-        background-color: var(--bg-color);
-    
-        margin: 0.7rem;
-        box-shadow: 0 0 8px var(--text-color);
-    
-    }
+    .input-box input{
+        
+        width: 95%; 
+      }
+
     .btn {
         border: 1px solid white;
         color: white;
