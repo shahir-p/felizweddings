@@ -389,6 +389,7 @@ form {
 }
 
 .input-box input {
+    margin: 0px 20px;
     border: 1px solid white;
     width: 350px;
     height: 60px;
@@ -663,7 +664,7 @@ textarea {
         
     }
     .input-box input{
-        
+
         width: 95%; 
       }
 
