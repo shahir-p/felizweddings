@@ -37,6 +37,22 @@ body {
 
 
 }
+#image-insta {
+    width: 25px;
+
+
+}
+#image-connect {
+    width: 20px;
+
+
+}
+#image-insta:hover {
+    width: 25px;
+    color: #666;
+
+
+}
 
 section {
     padding: 0 8rem;
@@ -676,7 +692,7 @@ textarea {
         width: 200px;
         background-color: black;
         padding: 5px;
-        font-size: 18px;
+        font-size: 15px;
         /* box-shadow: 0 0 15px var(--text-color); */
     
     }
