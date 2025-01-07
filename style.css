@@ -39,17 +39,19 @@ body {
 }
 #image-insta {
     width: 25px;
+    cursor: pointer;
 
 
 }
 #image-connect {
     width: 22px;
-    margin-left: 10px;
-
+    margin-left: 5px;
+    cursor: pointer;
 
 }
 #image-connect1 {
     width: 22px;
+    cursor: pointer;
 
 
 }
