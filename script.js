@@ -127,7 +127,11 @@ galleryAnimation(".destinations .gallery", [".destinations .gallery .box1",".des
 
 
 
+//insta onclick
+function insta(){
+    window.location.href = "https://www.instagram.com/feliz_weddings/", "_blank";
 
+}
 
 
 
