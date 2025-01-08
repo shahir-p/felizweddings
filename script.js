@@ -239,11 +239,12 @@ function validationCheck() {
             showToast("Message cannot be blank. Please enter your message.");
         }
 
-
+        
         return false;
     }
-
+    sendmail();
     return true; // Validation passed
+
 }
 
 // Restrict phone number field to 10 digits only
@@ -344,8 +345,4 @@ function sendmail() {
             document.getElementById("phone").value = "";
             document.getElementById("message").value = "";
         })
-        .catch((err) => {
-            console.error("Failed to send email:", err);
-            alert("Failed to send message. Please try again.");
-        });
 }
