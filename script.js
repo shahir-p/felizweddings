@@ -173,6 +173,14 @@ function validationCheck() {
     const subject = subjectField.value.trim();
     const message = messageField.value.trim();
 
+    //Email js
+
+
+
+
+
+
+
     // Regular expressions for validation
     const nameRegex = /^[A-Za-z\s]+$/;
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -310,4 +318,34 @@ function showToast(message, type = "error") {
     setTimeout(() => {
         document.body.removeChild(toast);
     }, 3000); // Automatically remove after 3 seconds
+}
+
+
+//Emai js
+
+
+
+function sendmail() {
+    var params = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        phone: document.getElementById("phone").value,
+        message: document.getElementById("message").value,
+    };
+
+    const serviceID = "service_73zfmit";
+    const templateID = "template_px69h0u";
+
+    emailjs.send(serviceID, templateID, params)
+        .then((response) => {
+            // Clear the form fields
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("phone").value = "";
+            document.getElementById("message").value = "";
+        })
+        .catch((err) => {
+            console.error("Failed to send email:", err);
+            alert("Failed to send message. Please try again.");
+        });
 }
